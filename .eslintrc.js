@@ -19,6 +19,15 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  // parserOptions: {
+  //   ecmaVersion: 'latest',
+  //   sourceType: 'module',
+  //   ecmaFeatures: {
+  //     jsx: true,
+  //   },
+  //   project: ['./tsconfig.json'],
+  // },
+  // https://ulbitv.ru/pl/teach/control/lesson/view?id=255897537&editMode=0&showAnswer=292063804#answer292063804
   plugins: ["react", "@typescript-eslint", "i18next"],
   rules: {
     "react/jsx-indent": [2, 2],
